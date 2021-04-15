@@ -1,0 +1,40 @@
+@media(max-width:600px){
+    .inicio{
+        background-color: red;
+        font-size: 11px;
+    }
+    
+    .subtipo{
+        background-color: red;
+        font-size: 11px;
+    }
+}
+@media(min-width:600px) and (max-width: 800px){
+    .inicio{
+        background-color:green;
+        font-size: 12px;
+        max-width: 60%;
+        
+    }
+    
+    .subtipo{
+        background-color:blue;
+        font-size: 12px;
+        max-width: 30%;
+    }
+}
+@media(min-width:800px){
+    .inicio{
+        background-color:violet;
+        font-size: 14px;
+        max-width: 80%;
+    }
+    
+    .subtipo{
+        background-color:yellow;
+        font-size: 14px;
+        max-width: 15%;
+    }
+}
+
+
